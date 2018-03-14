@@ -1,0 +1,60 @@
+body{
+	background-color: #031F2A;
+}
+/*HEADER*/
+h1{
+	font-family: Lobster Regular, Arial;
+}
+header{
+display: flex;
+justify-content: center;
+text-align: center;
+margin-top: 25px;
+}
+
+#livraison{
+	width: 70px;
+	height: 70px;
+}
+
+#panier, #compte{
+	width: 40px;
+	height: 40px;
+}
+
+nav{
+margin-top: 20px;
+text-align: center;
+margin-bottom: 25px;
+}
+
+.week_product img{
+	border: 5px solid black;
+	width: 450px;
+	height: 450px;
+}
+
+#category{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.category1{
+	margin-bottom: 5px;
+}
+.category1, .category2{
+	border: 2px solid black;
+	width: 225px;
+	height: 225px;
+}
+
+#carousel{
+	border: 2px solid black;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#bloc1, #bloc2{
+	margin-bottom: 25px;
+}
