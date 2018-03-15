@@ -22,8 +22,8 @@ $('.carousel.captions ul').anoSlide(
 		var caption = $('<div/>').addClass('caption').css(
 		{
 			position: 'absolute', 
-			background: 'rgb(0,0,0)',
-			color: 'rgb(255,255,255)',
+			background: 'rgba(0,0,0,0)',
+			color: 'rgba(255,255,255,0)',
 			textShadow: 'rgb(0,0,0) -1px -1px',
 			opacity: 0.5,
 			top: -100,

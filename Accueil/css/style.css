@@ -1,7 +1,9 @@
 body{
 	background-color: #031F2A;
 }
+
 /*HEADER*/
+
 h1{
 	font-family: Lobster Regular, Arial;
 }
@@ -22,18 +24,26 @@ margin-top: 25px;
 	height: 40px;
 }
 
+/*NAVBAR */
+
 nav{
 margin-top: 20px;
 text-align: center;
 margin-bottom: 25px;
 }
 
+/*IMG TOP*/
+
 .week_product img{
 	border: 5px solid black;
 	width: 450px;
 	height: 450px;
 }
-
+.week_product h2{
+	position: relative;
+	bottom: 50px;
+	left: 60px;
+}
 #category{
 	display: flex;
 	flex-direction: column;
@@ -49,12 +59,37 @@ margin-bottom: 25px;
 	height: 225px;
 }
 
+/*CAROUSEL*/
+
 #carousel{
 	border: 2px solid black;
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
 
+/*BLOCS LINKS */
+
 #bloc1, #bloc2{
 	margin-bottom: 25px;
 }
+
+/*FOLLOW + CONTACT*/
+#follow{
+	text-align: center;
+	border: 2px solid black;
+	vertical-align: center;
+}
+
+#follow_img{
+	width: 30px;
+	height: 30px;
+}
+
+#help{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	border: 2px solid black;
+	padding-top: 2px;
+}
+
